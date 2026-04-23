@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jokenpô - Guilherme Ferreira</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="game-container">
+        <h1>Pedra, Papel ou Tesoura</h1>
+
+        <div id="selection-screen">
+            <div class="options-grid">
+                <div class="option-card" onclick="selectOption('pedra')" id="card-pedra">
+                    <img src="" id="img-pedra" alt="Pedra">
+                    <span>Pedra</span>
+                </div>
+                <div class="option-card" onclick="selectOption('papel')" id="card-papel">
+                    <img src="" id="img-papel" alt="Papel">
+                    <span>Papel</span>
+                </div>
+                <div class="option-card" onclick="selectOption('tesoura')" id="card-tesoura">
+                    <img src="" id="img-tesoura" alt="Tesoura">
+                    <span>Tesoura</span>
+                </div>
+            </div>
+            <button id="btn-escolher" onclick="playGame()" disabled>Escolher</button>
+        </div>
+
+        <div id="result-screen" class="hidden">
+            <div class="comparison">
+                <div class="result-slot">
+                    <p>Você</p>
+                    <div id="user-result-img" class="final-card"></div>
+                </div>
+                <div class="vs">VS</div>
+                <div class="result-slot">
+                    <p>Sistema</p>
+                    <div id="cpu-result-img" class="final-card"></div>
+                </div>
+            </div>
+            <h2 id="game-message"></h2>
+            <button onclick="resetGame()">Novo Jogo</button>
+        </div>
+    </div>
+
+    <footer>
+        Desenvolvido por <a href="LINK_LINKEDIN_AQUI" target="_blank">Guilherme Ferreira</a>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
