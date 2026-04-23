@@ -2,6 +2,10 @@
 
 Um jogo interativo de Pedra, Papel e Tesoura desenvolvido com foco em **UX (Experiência do Usuário)**, rapidez de resposta e design responsivo. O projeto foi construído para ser leve, intuitivo e funcional em qualquer dispositivo.
 
+https://guilhermejobs.github.io/Jokenp-/
+
+![Demonstração do Jogo](Opcoes/Demostracao.gif)
+
 ## 🚀 Tecnologias
 O projeto utiliza a "trindade" essencial da web, mantendo o código modular e fácil de manter:
 * **HTML5:** Estruturação semântica.
